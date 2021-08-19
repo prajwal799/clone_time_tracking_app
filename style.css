@@ -359,3 +359,206 @@ nav ul li a{
 .companies_text{
     margin-left: 12%;
 }
+
+/* desktop and mobile app also avaliable detalis */
+#desktop_mobile_box{
+    width: 100%;
+    height: 640px;
+}
+.monitor_text{
+    width: 50%;
+  margin: auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 0px;
+  color: #333c43;
+    height: 2%;
+    margin-top: 5%;
+    
+}
+.desktop_mobile_img{
+    width: 60%;
+    height: 80%;
+    margin: 3% auto;
+}
+.desktop_box{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.mobile_box{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.img_desktop{
+    width: 350px;
+    height: 200px;
+}
+.desktime_desktop_text{
+    font-size: 26px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.img_desktop_icon{
+    width: 80%;
+    margin-left: 30%;
+}
+.icon_margin_rigth{
+    margin-right: 3%;
+}
+.desktime_detalis_text{
+    width: 86%;
+    margin: 5% auto;
+    color: grey; 
+}
+.desktop_learn_more_btn{
+    margin-top: 4px;
+    margin-left: 22%;
+}
+
+ /* flickty sliding window of CEO and Maneger details */
+.carousel-cell {
+    width: 30%;
+   height: 450px;
+    margin-right: 10px;
+      background: #ffffff;
+      border: 1px solid grey;
+  border-radius: 5px;
+    counter-increment: carousel-cell;
+   }
+   .carousel{
+      width: 80%;
+      height: 450px;
+      margin-top: 20px;
+      margin-left: 100px;
+  }
+  .Ceo_manager_detalis_box{
+      width: 100%;
+      margin-top: 40px;
+      height: 700px;
+  }
+  .margin_top_desktime_text{
+      margin-top: 10px;
+  }
+  .manager_img{
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      float: left;
+  }
+  .manager_img_square{
+     margin-top: 20px;
+      margin-left: 20px;
+      width: 50px;
+      height: 50px;
+      float: left;
+
+  }
+  .name_manager_text{
+      float: left;
+      margin-top: 20px;
+  }
+  .user_text_app{
+      padding-top: 40px;
+      font-size: 36px;
+      width: 68%;
+      height: 10%;
+      margin: auto;
+      text-align: center;
+  }
+  #email2{
+      width: 260px;
+      height: 50px;
+      background-color: #ffffff;
+      border: 1px solid gray;
+      font-size: 20px;
+      margin-left: 30%;
+      margin-top: 100px;
+      float: left;
+      margin-bottom: 20px;
+  }
+  .get_started_btn{
+     width: 200px;
+      height: 50px;
+      background-color: #4ea819;
+      border: 1px solid white;
+      font-size: 20px;
+      margin-left: 3%;
+      color: #ffffff;
+      margin-top: 100px;
+     clear: left;
+     margin-bottom: 20px;
+  }
+  #user_email_box{
+     width: 100%;
+  height: 300px;
+  background-color: #4ea819;
+  color: #ffffff;
+  }
+
+  /* slide window of desk time features */
+  #Top_features_box{
+    width: 100%;
+    height: 700px;
+}
+.be_control_text{
+    width: 30%;
+     margin: auto;
+}
+.top_features_btn{
+    width: 60%;
+    height: 9%;
+    background-color:#ebecec ;
+    margin: auto;
+    border: 1px solid #ebecec;
+    border-radius: 5px;
+}
+.dot{
+    width: 19.5%;
+    font-size: 20px;
+    background-color: #ebecec;
+    color: #333c43;
+    border: 0px ;
+    height: 100%;
+    cursor: pointer;
+}
+.slideshow-container{
+    width: 75%;
+    margin: 2.8% auto;
+    height: 50%;
+    position: relative;
+}
+.slide_left_box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.slide_rigth_box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+.teams_text{
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333c43;
+}
+.font_col{
+    color: #333c43;
+}
+.img_of_slideshow1{
+    width: 500px;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.active, .dot:hover {
+   background-color: #4EA819;
+   }
+   

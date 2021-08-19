@@ -10,64 +10,12 @@
             @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
             </style>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            #desktop_mobile_box{
-                width: 100%;
-                height: 640px;
-            }
-            .monitor_text{
-                width: 50%;
-              margin: auto;
-              font-size: 13px;
-              text-align: center;
-              margin-top: 0px;
-              color: #333c43;
-                height: 2%;
-                margin-top: 5%;
-                
-            }
-            .desktop_mobile_img{
-                width: 60%;
-                height: 80%;
-                margin: 3% auto;
-            }
-            .desktop_box{
-                width: 50%;
-                float: left;
-                height: 100%;
-            }
-            .mobile_box{
-                width: 50%;
-                height: 100%;
-                float: left;
-            }
-            .img_desktop{
-                width: 350px;
-                height: 200px;
-            }
-            .desktime_desktop_text{
-                font-size: 26px;
-                margin-top: 4%;
-                margin-bottom: 2%;
-                text-align: center;
-            }
-            .img_desktop_icon{
-                width: 80%;
-                margin-left: 30%;
-            }
-            .icon_margin_rigth{
-                margin-right: 3%;
-            }
-            .desktime_detalis_text{
-                width: 86%;
-                margin: 5% auto;
-                color: grey; 
-            }
-            .desktop_learn_more_btn{
-                margin-top: 4px;
-                margin-left: 22%;
-            }
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         
+        <style>
+           
+        
+           
         </style>
         </head>
     
@@ -127,7 +75,70 @@
                 <h4><i class="fa fa-check " id="rigth_btn" ></i>Grasp shift and absence scheduling;</h4>
              </div>
         </div>
-        <div style="width: 100%;height: 600px;background-color: teal;"></div>
+        <!-- Top features of Desk Time -->
+        <div id="Top_features_box">
+         <h1 class="text-align-center high-performing_text ">Top DeskTime features for you and your team</h1>
+         <p class="text-align-center be_control_text">Be in control of your large, small, or freelance business and manage a
+            high-performing team that smashes goals every time.</p>
+               <div class="top_features_btn">
+                <button class="dot" onclick="currentSlide(1)">Team</button> 
+                <button class="dot" onclick="currentSlide(2)">Business</button> 
+                <button class="dot" onclick="currentSlide(3)">Enterprises</button> 
+                <button class="dot" onclick="currentSlide(4)">Agenices</button> 
+                  <button class="dot " onclick="currentSlide(5)">Freelancers</button> 
+                </div>
+                <div class="slideshow-container">
+
+                    <div class="mySlides1">
+                        <div class="slide_left_box">
+                            <h1 class="teams_text">Teams</h1>
+                            <h2 class="font_col">Be more organized and aware of how your team is performing on an everyday basis with simple time tracking software. Plan and create shifts, manage absences, track your staff's productivity, use the Project tracking feature to see who is working on what and for how long, and so much more.</h2>
+                        </div>
+                        <div class="slide_rigth_box">
+                            <img src="https://desktime.com/assets/img/bs4/home/top-features/teams.svg" class="img_of_slideshow1"/>
+                        </div>
+                     
+                    </div>
+                    <div class="mySlides1">
+                        <div class="slide_left_box">
+                            <h1 class="teams_text">Businesses</h1>
+                            <h2 class="font_col">Manage your company's human resources and cash flow from a single dashboard. Use the DeskTime time tracking app to track your team's productivity, keep an eye on the outsourced staff with Screenshots, manage your projects, calculate project costs, create invoices, and more.</h2>
+                        </div>
+                        <div class="slide_rigth_box">
+                            <img src="https://desktime.com/assets/img/bs4/home/top-features/businesses.svg" class="img_of_slideshow1"/>
+                        </div>
+                    </div>
+                    <div class="mySlides1">
+                        <div class="slide_left_box">
+                            <h1 class="teams_text">Enterprises</h1>
+                            <h2 class="font_col">Gain a complete overview of your business, employees, processes, and progress while enjoying VIP support and custom onboarding. Assign managers to track their teams, use the Screenshots feature for employee accountability, Shift scheduling for managing different work hours, projects to keep track of expenses, and more.</h2>
+                        </div>
+                        <div class="slide_rigth_box">
+                            <img src="https://desktime.com/assets/img/bs4/home/top-features/enterprises.svg" class="img_of_slideshow1"/>
+                        </div>
+                    </div>
+                    <div class="mySlides1">
+                        <div class="slide_left_box">
+                            <h1 class="teams_text">Agencies</h1>
+                            <h2 class="font_col">Keep an eye on your team members, remote workers, and freelancers in one place. Track their time, use Screenshots to ensure that everyone stays on tasks, and calculate their pay with the Cost calculation feature. Boost workflow efficiency and meet your clients' deadlines every time.</h2>
+                        </div>
+                        <div class="slide_rigth_box">
+                            <img src="https://desktime.com/assets/img/bs4/home/top-features/agencies.svg" class="img_of_slideshow1"/>
+                        </div>
+                    </div>
+                    <div class="mySlides1">
+                        <div class="slide_left_box">
+                            <h1 class="teams_text">Freelancers</h1>
+                            <h2 class="font_col">Never again get underpaid for the time invested in your clients' projects. Track time spent on specific projects, generate and export timesheets, and send them to the client. Then, use the Cost calculation and Invoicing features to create and send out invoices.</h2>
+                        </div>
+                        <div class="slide_rigth_box">
+                            <img src="https://desktime.com/assets/img/bs4/home/top-features/freelancers.svg" class="img_of_slideshow1"/>
+                        </div>
+                    </div>
+                    
+                    
+                 </div> 
+         </div>
         <div id="team_box_detalis">
             <div class="team_box_detalis">
                 <h1 class="high-performing_text text-align-center">High-performing teams choose DeskTime</h1>
@@ -280,5 +291,128 @@
              </div>
          </div> 
         </div>
+         <!-- flickity groupcell -->
+        <div class="Ceo_manager_detalis_box">
+            <h1 class="tracking_heading_text">Here's why managers and CEOs</h1>
+            <h2 class="tracking_heading_text  margin_top_desktime_text" >choose DeskTime</h2>
+            <div class="carousel" data-flickity='{ "groupCells": true }'>
+               <div class="carousel-cell">
+             <h2>DeskTime provides us automatic time tracking report, absence management and holiday requesta meaning we don't have to worry about manully tracking the days and hours worked by staff,it's all done for us .Reports include staff productivity,lateness and project costing,meaning we can immediately address any issues and provide support where necessary</h2>       
+             <img src="https://desktime.com/assets/img/customers/tony-wilson.jpg" class="manager_img"/>
+             <h4 class="name_manager_text">Tony wilson</h4>
+             <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+             <h4>Managing Director at Smartlt</h4>
+            </div>
+               <div class="carousel-cell">
+                   <h2>if you are concerned about the productivity of your employees and the application they are using daily,then DeskTime is an amazing solution for you.it is cost-effective compared to the other time tracking software and has been helping us with boosting productivity.We definitely recommend this software to companies with both remote and office employess</h2>
+                   <img src="https://desktime.com/assets/img/customers/alsam-hasib.png" class="manager_img"/>
+             <h4 class="name_manager_text">Alsam Hasib</h4>
+             <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+             <h4>Managing Director at HasTech it</h4>
+                </div>
+               <div class="carousel-cell">
+                   <h2>Better QA wants to be in a company where people can work from anywhere they want, as long as they do their job. After researching the market for multiple products, DeskTime fits like a glove, since it does just that. I can easily say that employees are being more productive when working 6 hours a day compared with the regular 9 AM to 5 PM hour job.</h2>
+                   <img src="https://desktime.com/assets/img/customers/brad.png" class="manager_img"/>
+                   <h4 class="name_manager_text">Tudor Brad</h4>
+                   <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+                   <h4>Quality Assurance Manager at Better QA</h4>
+                </div>
+                <div class="carousel-cell">
+                    <h2>Here at Omeron Technologies we believe in flexibility, responsibility and productivity. Flexible schedules and working places play a great role in the productivity and happiness of our colleagues. DeskTime offers the right support to keep all three beliefs in a perfect harmony, tracking employee progress whenever they work - be it early morning or late night.</h2>
+                    <img src="https://desktime.com/assets/img/customers/laurentiu.png" class="manager_img_square"/>
+                    <h4 class="name_manager_text">Tudor Brad</h4>
+                    <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+                    <h4>CEO at Omeron Technoiogies</h4>
+                 </div>
+               <div class="carousel-cell">
+                <h2>DeskTime has helped us see where our staff can more efficiently tend to our personal injury cases and the clients who need us. Whether working from home or at the office, it has improved overall productivity, efficiency, and most importantly has shown our diligence to be there for our personal injury clients in Dallas-Fort Worth and beyond.</h2>
+                <img src="https://desktime.com/assets/img/customers/zack-thompson.png" class="manager_img_square"/>
+                <h4 class="name_manager_text">Tudor Brad</h4>
+                <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+                <h4>CEO at Thompson Law LLP</h4>  
+             </div>
+               <div class="carousel-cell">
+                <h2>I would recommend DeskTime for companies with remote employees or home-office days - time tracking allows people who work remotely to feel certain that their work, effort, and dedication won&#039;t stay unnoticed. Since everything happens automatically, they can feel safe that any work their do will be logged and their hours adequately compensated.</h2>
+                   <img src="https://desktime.com/assets/img/customers/kaspars.png" class="manager_img"/>
+                <h4 class="name_manager_text">Kaspars Milbergs</h4>
+                <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+                <h4>CTO at On The Map MArketing</h4>  
+               </div>
+               <div class="carousel-cell">
+                <h2>We started using DeskTime for our whole team when we moved from Office to Work From Home. DeskTime helped us to form few work from home policies for our teams to work effectively. In the very first week, we started seeing a rise in overall productivity and accountability. DeskTime provides all the necessary features to manage your team remotely.</h2>
+                <img src="https://desktime.com/assets/img/customers/vinay-krishna-gupta.jpeg" class="manager_img_square"/>
+                <h4 class="name_manager_text">Vinay Krishna Gupta</h4>
+                <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+                <h4>Co-Founder & CEO at Antino Labs</h4>  
+               </div>
+               <div class="carousel-cell">
+                <h2>DeskTime helped us to overcome the challenges of time tracking and reporting, especially for the fully remote work situation due to COVID-19. It also helped us to maintain the performance of our workforce as expected, both for employee availability and daily schedules. If you have remote workers in your team, I definitely recommend DeskTime!</h2>
+                <img src="https://desktime.com/assets/img/customers/abhilash-subhash.png" class="manager_img_square"/>
+                <h4 class="name_manager_text">Abhilash Subhash</h4>
+                <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+                <h4>CEO at Urolime Technologies</h4>  
+               </div>
+               <div class="carousel-cell">
+                <h2>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don&#039;t need to worry about employee working hours anymore.</h2>
+                <img src="https://desktime.com/assets/img/customers/rizah.png" class="manager_img_square"/>
+                <h4 class="name_manager_text">Rizah Kabasi</h4>
+                <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+                <h4>Founder & CEO at SmartLab</h4>  
+               </div>
+               <div class="carousel-cell">
+                <h2>Given the pandemic, we were looking for contactless options to replace our legacy time &amp; attendance management systems, which required manual input from users. We found DeskTime to be an effective tool that provides undisputable insights to both end-users &amp; reporting managers, establishes transparency, and does not violate end-user privacy.</h2>
+                <img src="https://desktime.com/assets/img/customers/vinay-krishna-gupta.jpeg" class="manager_img_square"/>
+                <h4 class="name_manager_text">V M Samir</h4>
+                <img src="https://desktime.com/assets/img/bs4/icons/social/linkedin.svg" style="margin-top: 20px;"/>
+                <h4>CIO at Rustomjee</h4>  
+               </div>
+               
+             </div>
+        </div>
+        <!-- user email for started -->
+        <div id="user_email_box">
+            <h1 class="user_text_app">Join 200,000+ users already managing their time with the DeskTime app</h1>
+            <input type="email" id="email2" name="email" placeholder="Your work email">
+            <button class="get_started_btn">GET STARTED</button>
+            <h3 class="text-align-center">Try free for 14 days. No credit card required.</h3>
+            <h3 class="text-align-center">By signing up, you agree to our terms and privacy policy.</h3>
+
+        </div>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+          <script>
+           var slideIndex = 1;
+            showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  
+   
+  dots[slideIndex-1].className += " active";
+}
+function onclick(){
+    
+}
+
+</script> 
     </body>
 </html>
